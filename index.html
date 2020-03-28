@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Electrolize&display=swap" rel="stylesheet">  
+        <title>Serie A Survey Form</title>
+    </head>
+    <body id="body">
+        <h1 id="title">Serie A Calcio Survey</h1>
+        <p id="description">Thanks for participating in this survey about Serie A.</p>
+        <form id="survey-form" action="submit">
+            <label for="name" id="name-label">Name : </label><br>
+            <input type="text" id="name" placeholder="Your Name" required><br><br>
+            <label for="email" id="email-label">Email : </label><br>
+            <input type="email" id="email" placeholder="Your Email" required><br><br>
+            <label for="number" id="number-label">Year you started watching Serie A : </label><br>
+            <input type="number" id="number" placeholder="Year" required min="1900" max="2020"><br><br>
+            <label for="dropdown" id="dropdown-label">Your favorite top team : </label><br>
+            <select id="dropdown">
+                <option value="default">Select Team</option>
+                <option value="milan">AC Milan</option>
+                <option value="juve">Juventus</option>
+                <option value="inter">Inter Milan</option>
+                <option value="roma">AS Roma</option>
+                <option value="lazio">Lazio</option>
+                <option value="fiorentina">Fiorentina</option>
+            </select><br><br>
+            Is Serie A the best league in the world?<br>
+            <label>
+                <input type="radio" name="bestleague" value="english">Yes
+            </label><br>
+            <label>
+                <input type="radio" name="bestleague" value="italian">Si
+            </label><br>
+            <label>
+                <input type="radio" name="bestleague" value="french">Oui
+            </label><br><br>
+            Which of these players do you like? <br>
+            <div id="playerlist">
+                <label>
+                    <input type="checkbox" name="players" value="cr7">Cristiano Ronaldo
+                </label>
+                <label>
+                    <input type="checkbox" name="players" value="zlatan">Zlatan Ibrahimovic
+                </label>
+                <label>
+                    <input type="checkbox" name="players" value="alessio">Alessio Romagnoli
+                </label>
+                <label>
+                    <input type="checkbox" name="players" value="gigi">Gianluigi Donnarumma
+                </label>
+                <label>
+                    <input type="checkbox" name="players" value="dybala">Paolo Dybala
+                </label>
+                <label>
+                    <input type="checkbox" name="players" value="lukaku">Romelu Lukaku
+                </label>
+                <label>
+                    <input type="checkbox" name="players" value="zaniolo">Nicolo Zaniolo
+                </label>
+                <label>
+                    <input type="checkbox" name="players" value="ciro">Ciro Immobile
+                </label>
+            </div><br><br>
+            <textarea id="comments" placeholder="Please enter your comments about Serie A ...."></textarea><br><br><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+</html>
