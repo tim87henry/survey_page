@@ -28,7 +28,7 @@
 }
 
 #name,#email,#number,#dropdown {
-    width: 350px;
+    width: 55%;
 }
 
 #playerlist label {
@@ -43,7 +43,7 @@
 
 #comments {
     height: 120px;
-    width: 450px;
+    width: 55%;
 }
 
 #submit{
