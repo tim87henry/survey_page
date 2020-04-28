@@ -7,11 +7,14 @@
 #title {
     text-align: center;
     font-size: 42px;
+    margin-top: 10px;
 }
 
 #description {
     text-align: center;
     font-size: xx-large;
+    margin-top: 33px;
+    margin-bottom: 30px;
 }
 
 #survey-form {
